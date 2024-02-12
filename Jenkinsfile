@@ -37,7 +37,7 @@ pipeline {
                   npx testmo automation:run:submit \
                     --instance "$TESTMO_URL" \
                     --project-id 1 \
-                    --name "Mocha test run" \
+                    --name "Jenkins Run" \
                     --source "unit-tests" \
                     --resources resources.json \
                     --results results/*.xml \
